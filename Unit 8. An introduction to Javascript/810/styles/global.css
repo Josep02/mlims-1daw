@@ -2,9 +2,4 @@ div {
   padding: 0.5em;   
 }
 
-img {
-  width: 200px;
-  height: 250px;
-}
-
 #btn-remove-last, #btn-remove-first { background-color: red;}
