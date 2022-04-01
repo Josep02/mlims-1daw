@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Books Activities</title>
+    </head>
+    <body>
+        <h1>Books</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">807</a></li>
+                <li><a href="books.html">808</a></li>
+                <li><a href="gallery.html">809</a></li>
+            </ul>
+        </nav>
+
+        <script type="text/javascript">
+            //cookies - client/servidor
+            //sesions - servidor
+            //localStorage i sessionStorage
+
+            let aux = localStorage.getItem("counter");
+            let counter;
+
+            if (aux === null) {
+                counter = {visit: 0};
+            } else {
+                counter = JSON.parse(aux);
+            }
+
+            counter.visit++;
+            let counterSerialized = JSON.stringify(counter);
+            localStorage.setItem("counter", counterSerialized);
+
+            //let text = "This is your visit #" + counter;
+            let text = `This is your visit #${counter.visit}`;
+            let p = document.createElement('p');
+            p.innerHTML = text;
+
+            document.body.append(p);
+        </script>
+    </body>
+</html>
