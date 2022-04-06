@@ -159,6 +159,8 @@ function saveBook() {
   alert(json);
 }
 
+localStorage.setItem("books", JSON.stringify(books));
+
 // index.html
 
 document.addEventListener("DOMContentLoaded", main);

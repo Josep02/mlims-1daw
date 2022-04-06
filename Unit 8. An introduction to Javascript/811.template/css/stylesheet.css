@@ -1,0 +1,52 @@
+nav {
+}
+nav ul {
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    background: rgb(252, 254, 255);
+    padding: 1em;
+    margin: 1px;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(210, 240, 245);
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+div {
+    padding: 0.5em;
+}
+
+#btn-remove-last, #btn-remove-first {
+    background-color: red;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;    
+    width: 40%;
+    margin: 0 auto;
+}
+
+.gallery #book {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.gallery .nav {
+    display: flex;
+    justify-content: space-between;
+}
