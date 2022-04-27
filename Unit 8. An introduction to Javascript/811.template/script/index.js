@@ -22,11 +22,10 @@ function main() {
     let divData = document.querySelector("#data")
 
     let p = document.createElement('p');
-    p.innerHTML = "Degrees: " +result.main.temp + "ºC" + " , " +"Weather: " +result.weather[0].description + " , " + "Wind speed: " +result.wind.speed + "m/s";
+    p.innerHTML = "Degrees: " +result.main.temp + "ºC" + " <br> " +"Weather: " +result.weather[0].description + " <br> " + "Wind speed: " +result.wind.speed + "m/s";
     divData.append(p);
 
-  });
-  
+  }); 
 }
 
 document.addEventListener('DOMContentLoaded', main);
