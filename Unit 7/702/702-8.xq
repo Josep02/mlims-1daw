@@ -1,3 +1,4 @@
-for $x in doc("bookstore.xml")/bookstore/book
+for $x in collection(Bookstore)/bookstore/book
 let $count := count($x/author)
-return  <book><title>{data($x/title)}</title><author>{$count}</author></book>
+return 
+  <book><title>{data($x/title)}</title><authorNumb>{data($count)}</authorNumb></book>

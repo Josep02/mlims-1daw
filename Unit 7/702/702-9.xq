@@ -1,18 +1,25 @@
 <html>
 <body>
+<head>
+<title>Act 9</title>
+<style>
+  table {{border: 1px solid black}}
+  th {{border: 1px solid black}}
+</style>
+</head>
 <h1>Book List</h1>
-<table border="1">
+<table>
 <tr>
   <th>Title</th>
   <th>Author</th>
   <th>Price</th>
 </tr>
 {
-for $x in doc("bookstore.xml")/bookstore/book
+for $x in collection(Bookstore)/bookstore/book
 return <tr>
-          <td align="left">{data($x/title)}</td>
-          <td align="left">{data($x/author)}</td>
-          <td align="right">{data($x/@price)}</td>
+          <td>{data($x/title)}</td>
+          <td>{data($x/author)}</td>
+          <td>{data($x/@price)}</td>
        </tr>
 }
 </table>
