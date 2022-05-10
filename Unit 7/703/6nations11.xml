@@ -1,0 +1,316 @@
+<competition name="Sis Nacions" edicio="2011">
+    
+    <!-- 1a jornada -->
+    <round>
+	<match num="1" data="4-2-2011">
+		<summary>
+			<team name="Wales" score="19">
+			    <trainer>Warren Gatland</trainer>
+			    <scorecard>
+			        <name points="3">James Hook</name>
+			        <name points="11">Stephen Jones</name>
+			        <name points="5">Morgan Stoddart</name>
+			    </scorecard>
+			</team>
+			<team name="England" score="26">
+			    <trainer>Martin Johnson</trainer>
+			    <scorecard>
+			         <name points="13">Toby Flood</name>
+			         <name points="3">Jonny Wilkinson</name>
+			         <name points="10">Chris Ashton</name>
+			    </scorecard>
+			</team>
+		</summary>
+	</match>
+    <match num="2" data="5-2-2011">
+        <summary>
+            <team name="Italy" score="11">
+                <trainer>Nick Mallett</trainer>
+                <scorecard>
+                    <name points="6">Mirco Bergamasco</name>
+                    <name points="5">Luke McLean</name>                    
+                </scorecard>                
+            </team>
+            <team name="Ireland" score="13">
+                <trainer>Declan Kidney</trainer>
+                <scorecard>                    
+                    <name points="5">Brian O'Driscoll</name>
+                    <name points="3">Ronan O'Gara</name>
+                    <name points="5">Jonathan Sexton</name>
+                </scorecard>                
+            </team>            
+        </summary>
+    </match>
+    <match num="3" data="5-11-2011">
+        <summary>
+            <team name="France" score="34">
+                <trainer>Marc Lièvremont</trainer>
+                <scorecard>
+                    <name points="5">Imanol Harinordoquy</name>
+                    <name points="5">Damien Traille</name>
+                    <name points="7">Dimitri Yachvili</name>
+                    <name points="4">Morgan Parra</name>
+                    <name points="3">Francois Trinh-Duc</name>
+                    <name points="5">Maxime Medard</name>
+                    <name points="5">Penalty Try</name>                    
+                </scorecard>                
+            </team>
+            <team name="Scotland" score="21">
+                <trainer>Andy Robinson</trainer>
+                <scorecard>
+                    <name points="5">Kelly Brown</name>
+                    <name points="5">Alastair Kelloch</name>
+                    <name points="5">Sean Lamont</name>
+                    <name points="4">Dan Parks</name>
+                    <name points="2">Ruaridh Jackson</name>                    
+                </scorecard>                
+            </team>
+        </summary>
+    </match>
+    </round>
+    <!-- 2a jornada -->
+    <round>
+    <match num="1" data="12-2-2011">
+        <summary>
+            <team name="England" score="59">
+                <trainer>Martin Johnson</trainer>
+                <scorecard>
+                    <name points="5">Mark Cueto</name>
+                    <name points="13">Toby Flood</name>
+                    <name points="5">Mike Tindall</name>
+                    <name points="5">James Hook</name>
+                    <name points="6">Jonny Wilkinson</name>
+                    <name points="5">Danny Care</name>
+                    <name points="20">Chris Ashton</name>                    
+                </scorecard>                
+            </team>
+            <team name="Italy" score="13">
+                <trainer>Nick Mallett</trainer>
+                <scorecard>
+                    <name points="8">Mirco Bergamasco</name>
+                    <name points="5">Fabio Ongaro</name>
+                </scorecard>                
+            </team>
+        </summary>
+    </match>
+    <match num="2" data="12-2-2011">
+        <summary>
+            <team name="Scotland" score="6">
+                <trainer>Andy Robinson</trainer>
+                <scorecard>
+                    <name points="6">Dan Parks</name>
+                </scorecard>                
+            </team>
+            <team name="Wales" score="24">
+                <trainer>Warren Gatland</trainer>
+                <scorecard>
+                    <name points="14">James Hook</name>
+                    <name points="10">Shane Williams</name>
+                </scorecard>                
+            </team>            
+        </summary>
+    </match>
+    <match num="3" data="13-2-2011">
+        <summary>
+            <team name="Ireland" score="22">
+                <trainer>Declan Kidney</trainer>
+                <scorecard>
+                    <name points="5">Jamie Heaslip</name>
+                    <name points="2">Ronan O'Gara</name>
+                    <name points="5">Tomas O'Leary</name>
+                    <name points="5">Jonathan Sexton</name>
+                    <name points="5">Fergus McFadden</name>                    
+                </scorecard>                
+            </team>
+            <team name="France" score="25">
+                <trainer>Marc Lièvremont</trainer>
+                <scorecard>
+                    <name points="5">Dimitri Yachvili</name>
+                    <name points="15">Morgan Parra</name>
+                    <name points="5">Maxime Medard</name>
+                </scorecard>
+            </team>
+        </summary>
+    </match>
+    </round>
+<!-- 3a jornada -->
+    <round>
+    <match num="1" data="26-2-2011">
+        <summary>
+            <team name="Italy" score="16">
+                <trainer>Nick Mallett</trainer>
+                <scorecard>
+                    <name points="6">Mirco Bergamasco</name>
+                    <name points="5">Gonzalo Javier Canale</name>
+                    <name points="5">Sergio Parisse</name>
+                </scorecard>                
+            </team>
+            <team name="Wales" score="24">
+                <trainer>Warren Gatland</trainer>
+                <scorecard>
+                    <name points="3">James Hook</name>
+                    <name points="11">Stephen Jones</name>
+                    <name points="5">Morgan Stoddart</name>
+                    <name points="5">Sam Warburton</name>
+                </scorecard>                
+            </team>
+        </summary>
+    </match>
+    <match num="2" data="26-2-2011">
+        <summary>
+            <team name="England" score="17">
+                <trainer>Martin Johnson</trainer>
+                <scorecard>
+                    <name points="9">Toby Flood</name>
+                    <name points="3">Jonny Wilkinson</name>
+                    <name points="5">Ben Foden</name>
+                </scorecard>                
+            </team>
+            <team name="France" score="9">
+                <trainer>Marc Lièvremont</trainer>
+                <scorecard>
+                    <name points="9">Dimitri Yachvili</name>
+                </scorecard>                
+            </team>            
+        </summary>
+    </match>
+    <match num="3" data="27-2-2011">
+        <summary>
+            <team name="Scotland" score="18">
+                <trainer>Andy Robinson</trainer>
+                <scorecard>
+                    <name points="6">Dan Parks</name>
+                    <name points="12">Chris Paterson</name>                    
+                </scorecard>                
+            </team>
+            <team name="Ireland" score="21">
+                <trainer>Declan Kidney</trainer>
+                <scorecard>
+                    <name points="5">Jamie Heaslip</name>
+                    <name points="11">Ronan O'Gara</name>
+                    <name points="5">Eoin Reddan</name>
+                </scorecard>                
+            </team>
+        </summary>
+    </match>
+    </round>
+    <!-- 4a jornada -->
+    <round>
+    <match num="1" data="26-2-2011">
+        <summary>
+            <team name="Italy" score="22">
+                <trainer>Nick Mallett</trainer>
+                <scorecard>
+                    <name points="17">Mirco Bergamasco</name>
+                    <name points="5">Andrea Masi</name>
+                </scorecard>                
+            </team>
+            <team name="France" score="21">
+                <trainer>Marc Lièvremont</trainer>
+                <scorecard>
+                    <name points="5">Vincent Clerc</name>
+                    <name points="16">Morgan Parra</name>
+                </scorecard>                
+            </team>
+        </summary>
+    </match>
+    <match num="2" data="26-2-2011">
+        <summary>
+            <team name="Wales" score="19">
+                <trainer>Warren Gatland</trainer>
+                <scorecard>
+                    <name points="11">James Hook</name>
+                    <name points="5">Mike Phillips</name>
+                    <name points="3">Leigh Halfpenny</name>
+                </scorecard>                
+            </team>
+            <team name="Ireland" score="13">
+                <trainer>Declan Kidney</trainer>
+                <scorecard>
+                    <name points="5">Brian O'Driscoll</name>
+                    <name points="8">Ronan O'Gara</name>
+                </scorecard>                
+            </team>            
+        </summary>
+    </match>
+    <match num="3" data="27-2-2011">
+        <summary>
+            <team name="England" score="22">
+                <trainer>Martin Johnson</trainer>
+                <scorecard>
+                    <name points="12">Toby Flood</name>
+                    <name points="5">Jonny Wilkinson</name>
+                    <name points="5">Tom Croft</name>
+                </scorecard>                
+            </team>
+            <team name="Scotland" score="16">
+                <trainer>Andy Robinson</trainer>
+                <scorecard>
+                    <name points="3">Chris Paterson</name>
+                    <name points="11">Max Evans</name>
+                    <name points="5">Ruaridh Jackson</name>
+                </scorecard>                
+            </team>
+        </summary>
+    </match>
+    </round>
+    <!-- 5a jornada -->
+    <round>
+    <match num="1" data="19-3-2011">
+        <summary>
+            <team name="Scotland" score="21">
+                <trainer>Andy Robinson</trainer>
+                <scorecard>
+                    <name points="11">Chris Paterson</name>
+                    <name points="5">Nikki Walker</name>
+                    <name points="5">Nick de Luca</name>
+                </scorecard>                
+            </team>
+            <team name="Italy" score="8">
+                <trainer>Nick Mallett</trainer>
+                <scorecard>
+                    <name points="3">Mirco Bergamasco</name>
+                    <name points="5">Andrea Masi</name>
+                </scorecard>                
+            </team>
+        </summary>
+    </match>
+    <match num="2" data="19-3-2011">
+        <summary>
+            <team name="Ireland" score="24">
+                <trainer>Declan Kidney</trainer>
+                <scorecard>
+                    <name points="5">Tommy Bowe</name>
+                    <name points="5">Brian O'Driscoll</name>
+                    <name points="14">Jonathan Sexton</name>                    
+                </scorecard>                                
+            </team>
+            <team name="England" score="8">
+                <trainer>Martin Johnson</trainer>
+                <scorecard>
+                    <name points="3">Toby Flood</name>
+                    <name points="5">Steve Thompson</name>                                      
+                </scorecard>                                
+            </team>            
+        </summary>
+    </match>
+    <match num="3" data="19-3-2011">
+        <summary>
+            <team name="France" score="28">
+                <trainer>Marc Lièvremont</trainer>
+                <scorecard>    
+                    <name points="5">Vincent Clerc</name>
+                    <name points="10">Lionel Nallet</name>
+                    <name points="13">Morgan Parra</name>                                        
+                </scorecard>
+            </team>
+            <team name="Wales" score="9">
+                <trainer>Warren Gatland</trainer>
+                <scorecard>   
+                    <name points="9">James Hook</name>
+                </scorecard>
+            </team>
+        </summary>
+    </match>
+    </round>
+</competition>
